@@ -32,7 +32,7 @@ public class CellComponent extends JButton implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		/*
+		/* másik változat
 		if (isAlive()) {
 			setAlive(false);
 		} else {
