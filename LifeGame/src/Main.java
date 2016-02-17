@@ -60,6 +60,6 @@ public class Main {
 				c.getNeighbour();
 			}
 		}
-		window.setSize(500, 500);
+		window.setSize(600, 600);
 	}
 }
