@@ -9,7 +9,7 @@ public class Main {
 			}
 		}
 		
-		static int matrixSize = 10;
+		static int matrixSize = 100;
 	
 	public static void main(String[] args) {
 		JFrame window = new JFrame();
@@ -34,25 +34,25 @@ public class Main {
 			for (int j = 0; j < matrixSize; j++) {
 				CellComponent c = world[i][j];
 
-				//bal felsõ
+				//bal felsÃµ
 				setNeighbourSafety(world, c, i - 1, j - 1);
 
-				//felsõ
+				//felsÃµ
 				setNeighbourSafety(world, c, i - 1, j);
 
-				//jobb felsõ
+				//jobb felsÃµ
 				setNeighbourSafety(world, c, i - 1, j + 1);
 
 				//jobb
 				setNeighbourSafety(world, c, i, j + 1);
 
-				//jobb alsó
+				//jobb alsÃ³
 				setNeighbourSafety(world, c, i + 1, j + 1);
 
-				//alsó
+				//alsÃ³
 				setNeighbourSafety(world, c, i + 1, j);
 
-				//bal alsó
+				//bal alsÃ³
 				setNeighbourSafety(world, c, i + 1, j - 1);
 
 				//bal
